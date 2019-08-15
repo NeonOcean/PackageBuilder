@@ -1,0 +1,1 @@
+Run the build batch file to combine the base package file with the loose source files. The resulting package will apear in a folder named 'Output'.

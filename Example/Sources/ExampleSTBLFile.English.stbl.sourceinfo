@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>ExampleSTBLFile.English</Name>
+	<TypeID>570775514</TypeID><!-- The source info files are used to tell the package builder what the type id, group id and instance id are for this file. --> 
+	<GroupID>0</GroupID>
+	<InstanceID>39473733650646680</InstanceID>
+</SourceInfo>
