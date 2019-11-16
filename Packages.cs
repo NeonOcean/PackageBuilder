@@ -94,7 +94,9 @@ namespace PackageBuilder {
 					try {
 						SourceInfo sourceInfo = (SourceInfo)Tools.ReadXML<SourceInfo>(sourceInfoFilePath);
 						targetResourceKeyTGIN = sourceInfo.ToTGIN();
-					} catch {}
+					} catch(Exception e) {
+						Console.Error.Write("Failed to read source info file.\n" + sourceInfoFilePath + "\n" + e.ToString());
+					}
 				}
 
 				AResourceKey targetResourceKey = targetResourceKeyTGIN;
